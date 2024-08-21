@@ -1,0 +1,33 @@
+:root {
+  --clr1: #ededed;
+  --clr2: #b7b7b7;
+  --clr3: #858585;
+  --clr4: #7d7d7d;
+  --clr5: #4c4c4c;
+}
+
+.form-card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--clr3);
+  position: relative;
+  overflow: hidden;
+  color: var(--clr1);
+  font-size: 20px;
+  border: 2px solid var(--clr4);
+}
+
+.form-card__picture {
+  width: 100%;
+  height: 100%;
+}
+
+.form-card__title {
+  display: flex;
+  align-items: center;
+  min-height: 100%;
+  width: 100%;
+  font-size: 26px;
+}

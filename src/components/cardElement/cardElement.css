@@ -1,0 +1,31 @@
+.modal {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  cursor: default;
+}
+
+.modal__card {
+  display: flex;
+  flex-direction: row;
+  width: 650px;
+  background-color: #e7e6e6;
+  border-radius: 10px;
+}
+
+.modal__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 300px;
+}
+
+.modal__image img {
+  width: 100%;
+  border-radius: 10px;
+}

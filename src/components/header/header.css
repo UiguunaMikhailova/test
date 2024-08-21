@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f1f1f;
+  height: 80px;
+  position: relative;
+}
+
+.header__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.header__item {
+  font-size: 30px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.header__item a {
+  color: var(--clr2);
+}
+
+.search {
+  position: absolute;
+  right: 80px;
+}
+
+.link.active {
+  color: var(--clr1);
+}
